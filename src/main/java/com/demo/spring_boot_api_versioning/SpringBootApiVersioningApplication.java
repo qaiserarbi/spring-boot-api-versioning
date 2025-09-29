@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class SpringBootApiVersioningApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(SpringBootApiVersioningApplication.class, args);
+	void main() {
+		SpringApplication.run(SpringBootApiVersioningApplication.class);
 	}
 
 }

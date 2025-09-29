@@ -1,0 +1,9 @@
+spring:
+  application.name: spring-boot-api-versioning
+
+# Swagger does not support the new API versioning approach, so this workaround enable swagger ui.
+springdoc:
+  swagger-ui:
+    path: /api/1/swagger
+  api-docs:
+    path: /api/1/api-docs
