@@ -12,9 +12,13 @@ This is a demo application showcasing the newly introduced API Version Control i
 
 ## Branches
 
+Each branch contains the relevant configuration and controller APIs for its versioning strategy.  
+Check out a specific branch to explore its implementation:
+
 - `path-segment` &mdash; Versioning via URL path segments
 - `request-header` &mdash; Versioning via custom request headers
 - `query-param` &mdash; Versioning via query parameters
+
 
 ## Getting Started
 
